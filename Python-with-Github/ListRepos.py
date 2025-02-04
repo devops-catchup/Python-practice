@@ -1,7 +1,7 @@
 from github import Github
 
 # token
-token = "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"
+token = "github_access_token"
 g = Github(token)
 
 user = g.get_user("devops-catchup")
